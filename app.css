@@ -1,6 +1,32 @@
 body{
-    background-image: url('./assets/Path\ 1.png');
+    background-image: url('./assets/g.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top right;
+    
+}
+p{
+    font-size: 16px;
+}
+h1{
+    font-size: 40px;
+}
+#my_button{
+    height: 70px;
+    width: 180px;
+    border-radius: 30px;
+    background-color: #E93838;
+    color: white;
+    font-size: 30px;
+    border: none;
+}
+.cont{
+    margin-top: 30%;
+}
+.nav-link{
+    color: white !important;
+    font-size: 25px;
+}
+.navbar-brand > img{
+    margin-left:  -40%;
 }
