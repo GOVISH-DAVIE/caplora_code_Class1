@@ -30,3 +30,26 @@ h1{
 .navbar-brand > img{
     margin-left:  -40%;
 }
+.landBody{
+    height: 100vh;
+} 
+
+.calculator{
+    height: 100vh;
+    background-color: grey;
+}
+.funcionality{
+    height: 100vh;
+
+}
+.numberPad{
+    height: 100vh;
+    background-color: tomato;
+}
+
+.margin{
+    margin-bottom: 20px;
+}
+.numbtn{
+    height: 30vh;
+}
