@@ -53,3 +53,15 @@ h1{
 .numbtn{
     height: 30vh;
 }
+
+.funcionality #display{
+    height: 50vh;
+    background-color: white;
+}
+.funcionality .symbols{
+    height: 50vh;
+    background-color: tomato;
+}
+.symbols button {
+    height: 20vh;
+}
