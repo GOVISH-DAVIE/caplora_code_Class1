@@ -5,139 +5,127 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="app.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+    integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+    integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
   <div class="container">
-
-    <nav class="navbar navbar-expand-lg navbar-light bg  ">
-      <a class="navbar-brand" href="#"><img src="./assets/523918-PJ7HCG-445.png" height="100" alt="Mywebsite"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav mr-auto">
-
-        </ul>
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Profile</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div class="row landBody">
-      <div class="col-sm-6">
-        <div class="cont">
-          <h1>Welcome to code class</h1>
-          <p>
-            orem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-            sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-            ultricies nec,
-            pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
-            dictum felis eu pede mollis pretium.
-
-          </p>
-          <button id="my_button">
-            more
-          </button>
-        </div>
-      </div>
+    <ul>
+      <a class="navbar-brand" href="#"><img src="./assets/523918-PJ7HCG-445.png" height="150" alt="Mywebsite"></a>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <div id="paragraph">
+      <h1>Lorem Ispsum</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mauris ligula, semper varius orci quis, lacinia
+        ornare ante. Nulla a viverra mi, vel auctor nisl. Suspendisse commodo dui eu odio aliquam, ut fermentum ante
+        bibendum. Pellentesque maximus vitae dui vel maximus. Quisque nulla tellus, imperdiet vel luctus vel, tristique
+        non ex. Nam non neque ut felis tincidunt rhoncus molestie sit amet lacus. Etiam dui ipsum, sollicitudin non
+        massa quis, cursus convallis massa. Aenean euismod metus a lacinia convallis. Nulla nec libero at purus blandit
+        volutpat id a ante. Sed id erat lorem. Nunc eleifend eleifend lectus ut posuere. Suspendisse sit amet efficitur
+        mauris. Praesent non aliquam neque. Nulla nec erat imperdiet, pretium ligula at, iaculis justo.</p>
     </div>
-
-
+    <div class="button">
+      <button type="button" class="btn btn-danger btn-rounded btn-lg ">More</button>
+    </div>
+  </div>
+  <br clear="left">
+  <div class="container">
     <section class="calculator">
-      <!-- //creating a row -->
       <div class="row bg-primary">
-        <!-- lets divide the row into columns using bootstrap -->
-        <div class="col-sm-6 funcionality">
+        <div class="col-sm-6 functionality">
           <div id="display">
+            <!-- number1 -->
+            <div id="number1">
+              <p>0</p>
+            </div>
+            <!-- symbl -->
+            <div id="symbol">
+            
+            </div>
+            <!-- number2 -->
+            <div id="number2">
+              <p>0</p>
+            </div>
+            <!-- result -->
+            <div id="result">
+              <p>=</p>
+            </div>
 
           </div>
-
           <div class="symbols">
             <div class="row">
-
               <div class="col-sm-4">
-                <button type="button" class="btn btn-dark col-sm-12 margin sybtn">+</button>
-              </div>
-
-              <div class="col-sm-4">
-                <button type="button" class="btn btn-dark col-sm-12  margin sybtn">-</button>
+                <button type="button" onclick="handlesym('ádd')" class="btn btn-dark col-sm-12 margin sybtn">+</button>
               </div>
               <div class="col-sm-4">
-                <button type="button" class="btn btn-dark col-sm-12 margin sybtn">/</button>
+                <button type="button" onclick="handlesym('subtract')"
+                  class="btn btn-dark col-sm-12 margin sybtn">-</button>
               </div>
-
+              <div class="col-sm-4">
+                <button type="button" onclick="handlesym('division')"
+                  class="btn btn-dark col-sm-12 margin sybtn">/</button>
+              </div>
             </div>
             <div class="row">
-
-              <div class="col-sm-4">
-                <button type="button" class="btn btn-dark col-sm-12 margin sybtn">*</button>
+              <div class="col-sm-3">
+                <button type="button" onclick="handlesym('multiplication')"
+                  class="btn btn-dark col-sm-12 margin sybtn">*</button>
               </div>
-
-              <div class="col-sm-4">
-                <button type="button" class="btn btn-dark col-sm-12  margin sybtn">%</button>
+              <div class="col-sm-3">
+                <button type="button" onclick="execute()" class="btn btn-dark col-sm-12 margin sybtn">=</button>
               </div>
-              <div class="col-sm-4">
-                <button type="button" class="btn btn-dark col-sm-12 margin sybtn">=</button>
+              <div class="col-sm-3">
+                <button type="button" onclick="handlesym('mod')" class="btn btn-dark col-sm-12 margin sybtn">%</button>
               </div>
-
+              <div class="col-sm-3">
+                <button type="button" onclick="handlesym('clear')"
+                  class="btn btn-dark col-sm-12 margin sybtn">C</button>
+              </div>
             </div>
 
-
           </div>
-
         </div>
-
-        <!-- done number pad -->
-        <div class="col-sm-6 numberPad">
-          <!-- number pad   -->
+        <div class="col-sm-6 numberpad">
           <div class="row">
-
             <div class="col-sm-4">
-              <button type="button" onclick="console.log(1)" class="btn btn-dark col-sm-12 margin numbtn">1</button>
-            </div>
-
-            <div class="col-sm-4">
-              <button type="button" class="btn btn-dark col-sm-12  margin numbtn">2</button>
+              <button type="button" onclick='handlenumberPad(1)' class="btn btn-dark col-sm-12 margin numbtn">1</button>
             </div>
             <div class="col-sm-4">
-              <button type="button" class="btn btn-dark col-sm-12 margin numbtn">3</button>
-            </div>
-
-          </div>
-          <!-- second row -->
-
-          <div class="row">
-
-            <div class="col-sm-4">
-              <button type="button" class="btn btn-dark col-sm-12 margin numbtn">4</button>
-            </div>
-
-            <div class="col-sm-4">
-              <button type="button" class="btn btn-dark col-sm-12 margin numbtn">5</button>
+              <button type="button" onclick='handlenumberPad(2)' class="btn btn-dark col-sm-12 margin numbtn">2</button>
             </div>
             <div class="col-sm-4">
-              <button type="button" class="btn btn-dark col-sm-12 margin numbtn">6</button>
+              <button type="button" onclick='handlenumberPad(3)' class="btn btn-dark col-sm-12 margin numbtn">3</button>
             </div>
 
           </div>
           <div class="row">
+            <div class="col-sm-4">
+              <button type="button" onclick='handlenumberPad(4)' class="btn btn-dark col-sm-12 margin numbtn">4</button>
+            </div>
+            <div class="col-sm-4">
+              <button type="button" onclick='handlenumberPad(5)' class="btn btn-dark col-sm-12 margin numbtn">5</button>
+            </div>
+            <div class="col-sm-4">
+              <button type="button" onclick='handlenumberPad(6)' class="btn btn-dark col-sm-12 margin numbtn">6</button>
+            </div>
+
+          </div>
+          <div class="row">
+<<<<<<< HEAD
 
             <div class="col-sm-3">
               <button type="button" class="btn btn-dark col-sm-12 margin numbtn">7</button>
@@ -168,5 +156,29 @@
   integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
   integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+=======
+            <div class="col-sm-3">
+              <button type="button" onclick='handlenumberPad(7)' class="btn btn-dark col-sm-12 margin numbtn">7</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" onclick='handlenumberPad(8)' class="btn btn-dark col-sm-12 margin numbtn">8</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" onclick='handlenumberPad(9)' class="btn btn-dark col-sm-12 margin numbtn">9</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" onclick='handlenumberPad(0)' class="btn btn-dark col-sm-12 margin numbtn">0</button>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+<!-- linking js  in html -->
+<script src="./app.js"></script>
+>>>>>>> upstream/main
 
 </html>

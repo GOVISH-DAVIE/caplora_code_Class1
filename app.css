@@ -1,67 +1,74 @@
 body{
-    background-image: url('./assets/g.png');
-    background-size: cover;
+    background-image: url('./assets/Path\ 1.png');
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: top right;
-    
 }
-p{
-    font-size: 16px;
-}
-h1{
-    font-size: 40px;
-}
-#my_button{
-    height: 70px;
-    width: 180px;
-    border-radius: 30px;
-    background-color: #E93838;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:transparent;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
     color: white;
-    font-size: 30px;
-    border: none;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: xx-large;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+.container{
+    max-width:1024px;
 }
-.cont{
-    margin-top: 30%;
+.navbar-brand{
+    float: left;
 }
-.nav-link{
-    color: white !important;
-    font-size: 25px;
+#paragraph {
+    width:600px;
+    padding-top:20%;
+    float:left;
+    font-size:large;
 }
-.navbar-brand > img{
-    margin-left:  -40%;
-}
-.landBody{
-    height: 100vh;
-} 
+ 
 
 .calculator{
-    height: 100vh;
-    background-color: grey;
-}
-.funcionality{
-    height: 100vh;
-
-}
-.numberPad{
-    height: 100vh;
-    background-color: tomato;
+  height:100vh;
+  background-color:grey ;
 }
 
+.functionality{
+  height:100vh;
+}
+
+.numberpad{
+  height:100vh;
+  background-color:tomato ;
+}
 .margin{
-    margin-bottom: 20px;
+  margin-bottom:20px;
 }
 .numbtn{
-    height: 30vh;
+  height:30vh;
 }
-
-.funcionality #display{
-    height: 50vh;
-    background-color: white;
+.functionality #display{
+  height:50vh;
+  background-color:white ;
 }
-.funcionality .symbols{
-    height: 50vh;
-    background-color: tomato;
+.functionality .symbols{
+  height:50vh;
+  background-color: tomato;
 }
-.symbols button {
-    height: 20vh;
+.sybtn{
+  height:20vh;
 }
